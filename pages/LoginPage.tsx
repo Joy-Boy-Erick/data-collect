@@ -21,8 +21,7 @@ const LoginPage: React.FC = () => {
       navigate('/admin/dashboard');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An unknown error occurred.');
-    } finally {
-      setIsLoading(false);
+      setIsLoading(false); // Only stop loading on error
     }
   };
 
