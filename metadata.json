@@ -1,0 +1,5 @@
+{
+  "name": "DataCollectApp",
+  "description": "A simple application to record patient payment amounts by date. It features a secure admin dashboard for managing patients and payments, and a public read-only view of all payments.",
+  "requestFramePermissions": []
+}
